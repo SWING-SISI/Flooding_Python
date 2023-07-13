@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_392ce60667a6d921adf4c79b39fa06ee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_392ce60667a6d921adf4c79b39fa06ee" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_392ce60667a6d921adf4c79b39fa06ee = L.map(
+                "map_392ce60667a6d921adf4c79b39fa06ee",
+                {
+                    center: [37.5665, 126.978],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_02a58107fbf316e433fdce49d9b924b9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_392ce60667a6d921adf4c79b39fa06ee);
+        
+    
+            var marker_80ac0c54b4d85fdacc35ac79a0e4c063 = L.marker(
+                [37.5622, 126.9087],
+                {}
+            ).addTo(map_392ce60667a6d921adf4c79b39fa06ee);
+        
+    
+            var icon_32b0bd8afd1073e322f474567ba002b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80ac0c54b4d85fdacc35ac79a0e4c063.setIcon(icon_32b0bd8afd1073e322f474567ba002b3);
+        
+    
+        var popup_50e44b7a52cdd678a6f520500972f48d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b14f7a4cfacb62b310f6f5ca09702679 = $(`<div id="html_b14f7a4cfacb62b310f6f5ca09702679" style="width: 100.0%; height: 100.0%;">마포구구</div>`)[0];
+                popup_50e44b7a52cdd678a6f520500972f48d.setContent(html_b14f7a4cfacb62b310f6f5ca09702679);
+            
+        
+
+        marker_80ac0c54b4d85fdacc35ac79a0e4c063.bindPopup(popup_50e44b7a52cdd678a6f520500972f48d)
+        ;
+
+        
+    
+    
+            var marker_1d04a39eeb5c696ea247bfef9eee6b2f = L.marker(
+                [37.5658, 126.8227],
+                {}
+            ).addTo(map_392ce60667a6d921adf4c79b39fa06ee);
+        
+    
+            var icon_84692f22c54aeef42f8a9c5b178ed405 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1d04a39eeb5c696ea247bfef9eee6b2f.setIcon(icon_84692f22c54aeef42f8a9c5b178ed405);
+        
+    
+        var popup_2db8ad6c80c126373e2dcbb0f93a6a76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5b41446e1427e12bacd2c006c100b83 = $(`<div id="html_c5b41446e1427e12bacd2c006c100b83" style="width: 100.0%; height: 100.0%;">강서구구</div>`)[0];
+                popup_2db8ad6c80c126373e2dcbb0f93a6a76.setContent(html_c5b41446e1427e12bacd2c006c100b83);
+            
+        
+
+        marker_1d04a39eeb5c696ea247bfef9eee6b2f.bindPopup(popup_2db8ad6c80c126373e2dcbb0f93a6a76)
+        ;
+
+        
+    
+    
+            var marker_3a8c311b8a77d66c7a45e0557840b6bd = L.marker(
+                [37.5575, 126.9942],
+                {}
+            ).addTo(map_392ce60667a6d921adf4c79b39fa06ee);
+        
+    
+            var icon_cbc13ef491917bacb4310d7fc452c93c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a8c311b8a77d66c7a45e0557840b6bd.setIcon(icon_cbc13ef491917bacb4310d7fc452c93c);
+        
+    
+        var popup_ca5344737d631dc037e613549e872182 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f0bbe4532c10e086094328028a40ea3 = $(`<div id="html_8f0bbe4532c10e086094328028a40ea3" style="width: 100.0%; height: 100.0%;">중구구</div>`)[0];
+                popup_ca5344737d631dc037e613549e872182.setContent(html_8f0bbe4532c10e086094328028a40ea3);
+            
+        
+
+        marker_3a8c311b8a77d66c7a45e0557840b6bd.bindPopup(popup_ca5344737d631dc037e613549e872182)
+        ;
+
+        
+    
+</script>
+</html>
